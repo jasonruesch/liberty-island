@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "defaultMode": "auto",
+    "allow": [
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "WebSearch",
+      "WebFetch",
+      "Bash(npm run typecheck)",
+      "Bash(npm run lint)",
+      "Bash(npm run format:check)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npx tsc --noEmit *)",
+      "mcp__claude_ai_Atlassian_Rovo__getJiraIssue"
+    ]
+  }
+}
